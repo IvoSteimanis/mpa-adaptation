@@ -1,6 +1,6 @@
 # Replication Package
 
-[![DOI](https://zenodo.org/badge/1284087332.svg)](https://zenodo.org/badge/latestdoi/1284087332)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.21065051.svg)](https://doi.org/10.5281/zenodo.21065051)
 
 **Paper:** *Structured rules, not broad autonomy, support adaptive governance under climate stress*
 **Authors:** Maryia Orsich†, Ivo Steimanis†, Maximilian Nicolaus Burger, Björn Vollan  
