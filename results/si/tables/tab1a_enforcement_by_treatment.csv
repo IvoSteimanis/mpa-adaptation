@@ -1,0 +1,6 @@
+treatment,coherent,voluntary,incoherent,total,pct_coherent,pct_voluntary,pct_incoherent
+{it:Fixed},105,,,105,100,,
+{it:Constrained},55,45,5,105,52.380951,42.857143,4.7619047
+{it:Flexible},30,55,20,105,28.571428,52.380951,19.047619
+{it:Open},75,,30,105,71.428574,,28.571428
+,1,,,1,100,,
