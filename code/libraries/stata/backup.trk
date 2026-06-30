@@ -1,0 +1,677 @@
+* 00000021
+*! version 1.0.0
+* Do not erase or edit this file
+* It is used by Stata to track the ado and help
+* files you have installed.
+
+S http://www.stata.com/users/vwiggins
+N grc1leg.pkg
+D 30 May 2023
+U 1
+d grc1leg.  Combine graphs into one graph with a common legend.
+d Program by Vince Wiggins, StataCorp <vwiggins@@stata.com>.
+d Statalist distribution, 16 June 2003.
+d 
+d Exactly like -graph combine- but shows a single common legend for all
+d combined graphs.
+d 
+d Distribution-Date: 02jun2010
+f g\grc1leg.ado
+f g\grc1leg.hlp
+e
+S https://raw.githubusercontent.com/worldbank/ietoolkit/master/src
+N ietoolkit.pkg
+D 30 May 2023
+U 2
+d iefieldkit. DIME Analytics iefieldkit public beta
+d DIME Analytics, World Bank Group, Development Economics Research
+f i\iebaltab.ado
+f i\ieboilstart.ado
+f i\ieddtab.ado
+f i\iedorep.ado
+f i\iedropone.ado
+f i\iefolder.ado
+f i\iegitaddmd.ado
+f i\iegraph.ado
+f i\iekdensity.ado
+f i\iematch.ado
+f i\iesave.ado
+f i\ietoolkit.ado
+f i\iebaltab.sthlp
+f i\ieboilstart.sthlp
+f i\ieddtab.sthlp
+f i\iedorep.sthlp
+f i\iedropone.sthlp
+f i\iefolder.sthlp
+f i\iegitaddmd.sthlp
+f i\iegraph.sthlp
+f i\iekdensity.sthlp
+f i\iematch.sthlp
+f i\iesave.sthlp
+f i\ietoolkit.sthlp
+e
+S https://raw.githubusercontent.com/benjann/palettes/master
+N palettes.pkg
+D 30 May 2023
+U 3
+d palettes: module providing color palettes, symbol palettes, and line pattern palettes
+d 
+d Author: Ben Jann, University of Bern, ben.jann@unibe.ch
+d 
+d Distribution-Date: 20220602
+f c\colorpalette.ado
+f c\colorcheck.ado
+f c\colorpalette.sthlp
+f c\colorcheck.sthlp
+f s\symbolpalette.hlp
+f c\colorpalette9.hlp
+f s\symbolpalette.ado
+f c\colorpalette9.ado
+f p\palettes.hlp
+f l\linepalette.ado
+f l\linepalette.hlp
+e
+S https://raw.githubusercontent.com/benjann/colrspace/master
+N colrspace.pkg
+D 30 May 2023
+U 4
+d colrspace: module providing a class-based color management system in Mata
+d 
+d Author: Ben Jann, University of Bern, ben.jann@unibe.ch
+d 
+d Distribution-Date: 20230512
+f c\colrspace_library_generators.sthlp
+f c\colrspace_library_namedcolors.sthlp
+f l\lcolrspace.mlib
+f c\colrspace_library_rgbmaps.sthlp
+f c\colrspace_source.sthlp
+f c\colrspace_library_lsmaps.sthlp
+f c\colrspace_library_palettes.sthlp
+f c\colrspace.sthlp
+e
+S http://fmwww.bc.edu/repec/bocode/c
+N catplot.pkg
+D 30 May 2023
+U 5
+d 'CATPLOT': module for plots of frequencies, fractions or percents of categorical data
+d 
+d catplot shows frequencies (or optionally fractions or percents)
+d of the categories of one, two or three categorical variables. The
+d first named variable is innermost on the display; that is, its
+d categories vary fastest. catplot is a wrapper for graph hbar
+d (default) or graph bar or graph dot. The files catplot_old.* are
+d files for the original 2003 version of catplot: to use fix the
+d names by removing "_old".
+d 
+d KW: graphics
+d KW: categorical data
+d KW: bar charts
+d KW: dot charts
+d 
+d Requires: Stata version 8.0
+d 
+d 
+d Author: Nicholas J. Cox, Durham University
+d Support: email  N.J.Cox@@durham.ac.uk
+d 
+d Distribution-Date: 20101221
+d 
+f c\catplot.ado
+f c\catplot.hlp
+f c\catplot_old.ado
+f c\catplot_old.hlp
+e
+S http://fmwww.bc.edu/repec/bocode/c
+N cibar.pkg
+D 30 May 2023
+U 6
+d 'CIBAR': module to plot bar graphs and confidence intervals over groups
+d 
+d  cibar plots bars and confidence intervals of the mean of a
+d variable over at least one group.  cibar aims at drawing graphs
+d that resemble graphs created by graph bar varname, over(varname)
+d asyvar,  adding confidence intervals to the bars. In order to do
+d so, cibar uses Stata's twoway bar and twoway rcap. cibar shows
+d graphically the differences in the mean of a variable depending
+d on the categories of other variables.
+d 
+d KW: bar graph
+d KW: graphics
+d KW: confidence intervals
+d KW: means
+d 
+d Requires: Stata version 13
+d 
+d Distribution-Date: 20190624
+d 
+d Author: Alexander Staudt, N/A
+d Support: email staudtlex@@live.de
+d 
+f c\cibar.ado
+f c\cibar.sthlp
+e
+S http://fmwww.bc.edu/repec/bocode/c
+N coefplot.pkg
+D 30 May 2023
+U 7
+d 'COEFPLOT': module to plot regression coefficients and other results
+d 
+d   coefplot plots results from estimation commands or Stata
+d matrices. Results from multiple models or matrices can be
+d combined in a single graph. The default behavior of coefplot is
+d to draw markers for coefficients and horizontal spikes for
+d confidence intervals. However, coefplot can also produce various
+d other types of graphs.
+d 
+d KW: graphics
+d KW: coefficients
+d KW: estimation
+d 
+d Requires: Stata version 11
+d 
+d Distribution-Date: 20230225
+d 
+d Author: Ben Jann, University of Bern
+d Support: email jann@@soz.unibe.ch
+d 
+f c\coefplot.ado
+f c\coefplot.sthlp
+e
+S http://fmwww.bc.edu/repec/bocode/c
+N combomarginsplot.pkg
+D 30 May 2023
+U 8
+d 'COMBOMARGINSPLOT': module to combine the saved results from multiple calls to margins into one marginsplot
+d 
+d  combomarginsplot combines the saved results from multiple calls
+d to margins  into one marginsplot. combomarginsplot works by
+d appending the saved margins file, treating each as a distinct
+d level of a factor variable. By default the variable that indexes
+d the file number  is _filenumber, though an alternative variable
+d name can be specified with the filevarname() option.
+d 
+d KW: margins
+d KW: marginsplot
+d KW: cmp
+d 
+d Requires: Stata version 16
+d 
+d Distribution-Date: 20211112
+d 
+d Author: Nick Winter, University of Virginia
+d Support: email  nwinter@@virginia.edu
+d 
+f c\combomarginsplot.ado
+f c\combomp.ado
+f c\cmpmargins.ado
+f c\combomarginsplot12.ado
+f c\combomarginsplot.sthlp
+e
+S http://fmwww.bc.edu/repec/bocode/d
+N distplot.pkg
+D 30 May 2023
+U 9
+d 'DISTPLOT': module to generate distribution function plot
+d 
+d distplot produces a plot of cumulative distribution function(s).
+d This shows the proportion (or if desired the frequency) of values
+d  less than or equal to each value. With the reverse option,
+d distplot produces a plot of the complementary function.  This
+d version is for Stata 8 or later.  Also included in this package
+d are distplot7 files, a clone of the  last version of this program
+d written for Stata 7.
+d 
+d KW: graphics
+d KW: frequency distributions
+d KW: cumulative distribution function
+d 
+d Requires: Stata version 8.0 (7.0 for distplot7)
+d 
+d 
+d Author: Nicholas J. Cox, University of Durham
+d Support: email N.J.Cox@@durham.ac.uk
+d 
+d Distribution-Date: 20170916
+d 
+f d\distplot.ado
+f d\distplot.sthlp
+f d\distplot7.ado
+f d\distplot7.hlp
+e
+S http://fmwww.bc.edu/repec/bocode/e
+N estout.pkg
+D 30 May 2023
+U 10
+d 'ESTOUT': module to make regression tables
+d 
+d  estout produces a table of regression results from one or
+d several models for use with spreadsheets, LaTeX, HTML, or a
+d word-processor table. eststo stores a quick copy of the active
+d estimation results for later tabulation. esttab is a wrapper for
+d estout. It displays a pretty looking publication-style regression
+d table without much typing. estadd adds additional results to the
+d e()-returns for one or several models previously fitted and
+d stored. This package subsumes the previously circulated esto,
+d esta, estadd,  and estadd_plus. An earlier version of estout is
+d available  as estout1.
+d 
+d KW: estimates
+d KW: LaTeX
+d KW: HTML
+d KW: word processor
+d KW: output
+d 
+d Requires: Stata version 8.2
+d 
+d Distribution-Date: 20230212
+d 
+d Author: Ben Jann, University of Bern
+d Support: email jann@@soz.unibe.ch
+d 
+f _\_eststo.ado
+f _\_eststo.hlp
+f e\estadd.ado
+f e\estadd.hlp
+f e\estout.ado
+f e\estout.hlp
+f e\eststo.ado
+f e\eststo.hlp
+f e\estpost.ado
+f e\estpost.hlp
+f e\esttab.ado
+f e\esttab.hlp
+e
+S http://fmwww.bc.edu/repec/bocode/g
+N grstyle.pkg
+D 30 May 2023
+U 11
+d 'GRSTYLE': module to customize the overall look of graphs
+d 
+d  grstyle allows you to customize the overall look of graphs from
+d within a do-file without having to fiddle around with external
+d scheme files. The advantage of grstyle over manually editing a
+d scheme file is that everything needed to reproduce your graphs
+d can be included in a single do-file.
+d 
+d KW: graphics
+d KW: scheme files
+d KW: custom graphics
+d KW: plot
+d 
+d Requires: Stata version 9.2 and palettes from SSC (q.v.)
+d 
+d Distribution-Date: 20200919
+d 
+d Author: Ben Jann, University of Bern
+d Support: email jann@@soz.unibe.ch
+d 
+f g\grstyle.ado
+f g\grstyle.hlp
+f g\grstyle_set.ado
+f g\grstyle_set.hlp
+e
+S http://fmwww.bc.edu/repec/bocode/k
+N kobo2stata.pkg
+D 30 May 2023
+U 12
+d 'KOBO2STATA': module to create labelled Stata datasets from KoboToolbox
+d 
+d     kobo2stata combines the information contained in the raw data
+d file and the XLSForm, and creates labelled Stata datasets. The
+d main focus is on applying the variable labels and value labels in
+d the XLSForm to the data. There are also some secondary
+d functions, e.g. the removal of HTML tags from labels.  Please
+d read the    important remarks below on generating the input files
+d in KoboToolbox.
+d 
+d KW: data management
+d KW: Kobo Toolbox
+d 
+d Requires: Stata version 14
+d 
+d Distribution-Date: 20210723
+d 
+d Author:  Felix Schmieding
+d Support: email kobo2stata@@gmail.com
+d 
+f k\kobo2stata.ado
+f k\kobo2stata.sthlp
+e
+S http://fmwww.bc.edu/repec/bocode/m
+N moss.pkg
+D 30 May 2023
+U 13
+d 'MOSS': module to find multiple occurrences of substrings
+d 
+d  moss finds occurrences of substrings matching a pattern in a
+d given string variable. Depending on what is sought and what is
+d found, variables are created giving the count of occurrences
+d (always); the positions of occurrences (whenever any are found);
+d and the exact substrings found (when a regular expression defines
+d a subexpression to be returned).
+d 
+d KW:  data management
+d KW: strings
+d KW: substrings
+d KW: regular expressions
+d 
+d Requires: Stata version 9
+d 
+d Distribution-Date: 20160429
+d 
+d Author: Robert Picard, Durham University
+d Support: email picard@@netbox.com
+d 
+d Author: Nicholas J. Cox
+d Support: email N.J.Cox@@durham.ac.uk
+d 
+f m\moss.ado
+f m\moss.sthlp
+e
+S http://fmwww.bc.edu/repec/bocode/m
+N mylabels.pkg
+D 30 May 2023
+U 14
+d 'MYLABELS': module for axis labels or ticks on transformed scales or for daily dates
+d 
+d  mylabels and myticks generate axis labels and ticks on
+d transformed scales. Their use is best explained by example. You
+d draw a graph and one axis is on a transformed square root scale.
+d You wish the axis labels to show untransformed values. For some
+d values this is easy; for example, ylabel(0 1 2 "4" 3 "9" 4 "16" 5
+d "25") says use "4" as label for 2, and so forth. For other values
+d and/or other transformations the conversion may be more difficult
+d to do in your head. The idea behind mylabels is that you feed it
+d the numeric labels you want shown and the transformation being
+d used. It will then place the appropriate specification in a local
+d macro which you name. You may then use that local macro as part
+d of a later graphics command. The idea behind myticks is similar.
+d  mydays displays a formatted list of specified days that lie
+d within the range of a tsset daily date variable describing a time
+d series and puts the numeric version of that list in a specified
+d local macro. The result may be useful for specifying axis label
+d or tick positions on graphs of time series. mydays requires Stata
+d 9.0.
+d 
+d KW: graphics
+d KW: transformations
+d KW: axis labels
+d KW: axis ticks
+d KW: daily dates
+d KW: time series
+d 
+d Requires: Stata version 8.0 (9.0 for mydays)
+d 
+d Distribution-Date: 20220515
+d 
+d Author: Nicholas J. Cox, Durham University
+d Support: email N.J.Cox@@durham.ac.uk
+d 
+d Author: Scott Merryman
+d Support: email scott.merryman@@gmail.com
+d 
+f m\mylabels.ado
+f m\mylabels.sthlp
+f m\myticks.ado
+f m\myticks.hlp
+f m\mydays.ado
+f m\mydays.hlp
+e
+S http://fmwww.bc.edu/repec/bocode/o
+N outreg2.pkg
+D 30 May 2023
+U 15
+d 'OUTREG2': module to arrange regression outputs into an illustrative table
+d 
+d  outreg2 provides a fast and easy way to produce an illustrative
+d table  of regression outputs. The regression outputs are produced
+d piecemeal and are  difficult to compare without some type of
+d rearrangement. outreg2  automates this process by concatenating
+d the successive regression outputs in a  vertical format. The
+d resulting table is saved to the disk in ASCII  format, which can
+d be read by other programs. outreg2 thus facilitates  the
+d convertion of regression outputs to a standard format suitable
+d for  inclusion in a scholarly publication. The functionality of
+d outreg2 is based on the earlier package outreg,  by John Luke
+d Gallup. Unlike outreg, outreg2 is capable of writing LaTeX-format
+d tables, as well as ASCII, MS Word and MS Excel.
+d 
+d KW: regression
+d KW: output
+d KW: tables
+d KW: tab-delimited output
+d KW: LaTeX
+d KW: Word
+d KW: Excel
+d 
+d Requires: Stata version 7
+d 
+d Distribution-Date: 20140817
+d 
+d Author: Roy Wada
+d Support: email roywada@@hotmail.com
+d 
+f o\outreg2.ado
+f o\outreg2_prf.ado
+f o\outreg2.hlp
+f s\shellout.ado
+f s\shellout.hlp
+f s\seeout.ado
+f s\seeout.hlp
+e
+S http://www.stata-journal.com/software/sj15-4
+N dm89_2.pkg
+D 30 May 2023
+U 16
+d SJ15-4 dm89_2. Update: Drop variables...
+d Update: Drop variables (observations) that are
+d   all missing
+d by Nicholas J. Cox, Department of Geography,
+d      Durham University, Durham City, UK
+d Support:  n.j.cox@@durham.ac.uk
+d {cmd:dropmiss} has been superseded by {cmd:missings}.
+d See {cmd:help missings} and
+d Cox (2015, {it:Stata Journal} 15: 1173-1184).
+f d\dropmiss.ado
+f d\dropmiss.hlp
+e
+S http://fmwww.bc.edu/repec/bocode/s
+N schemepack.pkg
+D 31 May 2023
+U 17
+d 'SCHEMEPACK': module providing ready-to-use graph schemes
+d 
+d  schemepack releases a suite of graph schemes as part of The
+d Stata Guide (https://medium.com/the-stata-guide) series. See the
+d help file (help schemepack) for details after installation.
+d 
+d KW: Stata
+d KW: scheme
+d KW: graphs
+d 
+d Requires: Stata version 15
+d 
+d Distribution-Date: 20221111
+d 
+d Author: Asjad Naqvi, WU Vienna
+d Support: email asjadnaqvi@@gmail.com
+d 
+f s\schemepack.sthlp
+f s\scheme-black_brbg.scheme
+f s\scheme-black_cividis.scheme
+f s\scheme-black_hue.scheme
+f s\scheme-black_jet.scheme
+f s\scheme-black_piyg.scheme
+f s\scheme-black_ptol.scheme
+f s\scheme-black_set3.scheme
+f s\scheme-black_tableau.scheme
+f s\scheme-black_viridis.scheme
+f s\scheme-black_w3d.scheme
+f s\scheme-cblind1.scheme
+f s\scheme-gg_brbg.scheme
+f s\scheme-gg_cividis.scheme
+f s\scheme-gg_hue.scheme
+f s\scheme-gg_jet.scheme
+f s\scheme-gg_piyg.scheme
+f s\scheme-gg_ptol.scheme
+f s\scheme-gg_set3.scheme
+f s\scheme-gg_tableau.scheme
+f s\scheme-gg_viridis.scheme
+f s\scheme-gg_w3d.scheme
+f s\scheme-neon.scheme
+f s\scheme-rainbow.scheme
+f s\scheme-swift_red.scheme
+f s\scheme-tab1.scheme
+f s\scheme-tab2.scheme
+f s\scheme-tab3.scheme
+f s\scheme-ukraine.scheme
+f s\scheme-white_brbg.scheme
+f s\scheme-white_cividis.scheme
+f s\scheme-white_hue.scheme
+f s\scheme-white_jet.scheme
+f s\scheme-white_piyg.scheme
+f s\scheme-white_ptol.scheme
+f s\scheme-white_set3.scheme
+f s\scheme-white_tableau.scheme
+f s\scheme-white_viridis.scheme
+f s\scheme-white_w3d.scheme
+e
+S http://fmwww.bc.edu/repec/bocode/b
+N betterbar.pkg
+D 13 Sep 2024
+U 18
+d 'BETTERBAR': module to produce bar graphs with optional standard error bars and cross-group comparisons
+d 
+d  betterbar and betterbarci produce bar graphs with optional
+d standard error bars and cross-group comparisons.
+d 
+d KW: graphics
+d KW: bar graph
+d 
+d Requires: Stata version 13.1
+d 
+d Distribution-Date: 20200209
+d 
+d Author: Benjamin Daniels, World Bank
+d Support: email bbdaniels@@gmail.com
+d 
+f b\betterbar.ado
+f b\betterbar.sthlp
+f b\betterbarci.ado
+f b\betterbarci.sthlp
+e
+S http://fmwww.bc.edu/repec/bocode/g
+N grc1leg2.pkg
+D 28 Aug 2025
+U 19
+d 'GRC1LEG2': module to combine multiple graphs with a single common legend
+d 
+d    grc1leg2 is an enhanced version of Vince Wiggins' grc1leg.
+d Like grc1leg, grc1leg2 is a wrapper for Stata's graph    combine,
+d invoking its ability to array separate, previously drawn graphs
+d as panels in a single combined graph.    By default, the
+d characteristics of the common legend are inherited from the
+d original version of the legend in the first  component graph,
+d or in the graph specified by the option legendfrom(name).  With
+d grc1leg2's legend options, the user can    precisely control the
+d placement of the common legend within the combined graph.  Other
+d legend options allow the user to    override some of the
+d characteristics of the legend inherited from its original
+d creation as part of one of the component    graphs.
+d 
+d KW: graphics
+d KW: legend
+d 
+d Requires: Stata version 13
+d 
+d Distribution-Date: 20240812
+d 
+d Author:   Mead Over, Center for Global Development
+d Support: email MOver@@cgdev.org
+d 
+f g\grc1leg2.ado
+f g\grc1leg2.sthlp
+f g\grc1leg2_examples.ado
+f g\grc1leg2.dlg
+e
+S http://fmwww.bc.edu/repec/bocode/s
+N spider.pkg
+D 29 Aug 2025
+U 20
+d 'SPIDER': module for spider plots
+d 
+d  This is a Stata package for plotting spider plots.  The command
+d is based on the following guide on Medium: Spider plots.
+d 
+d KW: graphics
+d KW: spider plots. radar plots
+d 
+d Requires: Stata version 15 and palettes, colrspace from SSC
+d 
+d Distribution-Date: 20250124
+d 
+d Author: Asjad Naqvi, Austrian Institute of Economic Research (WIFO)
+d Support: email asjadnaqvi@@gmail.com
+d 
+f s\spider.ado
+f s\spider.sthlp
+e
+S http://fmwww.bc.edu/repec/bocode/l
+N labutil.pkg
+D 29 Aug 2025
+U 21
+d 'LABUTIL': modules for managing value and variable labels
+d 
+d labcopy copies value labels, or swaps them around. labdel deletes
+d  them.  lablog defines value labels for values which are base 10
+d logarithms containing the antilogged values. labcd defines value
+d labels in which decimal points and commas are  interchanged
+d compared with the Stata default. labdtch detaches value labels.
+d labmap maps numeric  values to numeric labels. labnoeq removes
+d text up to and including "==" from variable labels. labvalch
+d supersedes labcopy and labdel.   labvarch is a more general tool
+d to change variable labels.  labmask assigns the values (or
+d value labels) of one variable  to another.  These  command-line
+d tools may complement John Gleason's interactive  labedit
+d (STB-51). labvalclone clones a set of value labels under a new
+d label name.  labvalcombine combines two or more sets of value
+d labels. It requires Stata 8.
+d 
+d KW: value labels
+d KW: variable labels
+d KW: data management
+d KW: logarithm
+d 
+d Requires: Stata version 7.0 (version 8 for labvalcombine).
+d 
+d 
+d Author: Nicholas J. Cox, University of Durham
+d Support: email N.J.Cox@@durham.ac.uk
+d 
+d Distribution-Date: 20131123
+d 
+f l\labcd.ado
+f l\labcd.hlp
+f l\labcopy.ado
+f l\labcopy.hlp
+f l\labdel.ado
+f l\labdel.hlp
+f l\lablog.ado
+f l\lablog.hlp
+f l\labdtch.ado
+f l\labdtch.hlp
+f l\labmap.ado
+f l\labmap.hlp
+f l\labnoeq.ado
+f l\labnoeq.hlp
+f l\labvarch.ado
+f l\labvarch.hlp
+f l\labvalch.ado
+f l\labvalch.hlp
+f l\labmask.ado
+f l\labmask.hlp
+f l\labvalclone.ado
+f l\labvalclone.sthlp
+f l\labvalcombine.ado
+f l\labvalcombine.hlp
+e
