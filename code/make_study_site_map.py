@@ -149,7 +149,7 @@ def main():
     # room for their left-anchored labels.
     extent = [121.5, 123.4, 10.3, 12.05]
 
-    # Figure size: 1-column PNAS (8.7 cm wide), tall enough for the N-S extent
+    # Figure size: single-column (8.7 cm wide), tall enough for the N-S extent
     fig = plt.figure(figsize=(8.7 / 2.54, 11.0 / 2.54), dpi=200)
     ax = fig.add_subplot(1, 1, 1, projection=proj)
     ax.set_extent(extent, crs=proj)

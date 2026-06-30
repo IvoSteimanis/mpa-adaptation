@@ -4,9 +4,9 @@
 *   This script generates every numbered table and figure reported in the
 *   main manuscript and Supplementary Information of:
 *
-*       Orsich, M., Burger, M. N., Steimanis, I., & Vollan, B. (2026).
-*       "Policy Blueprints, Local Autonomy, and Institutional Adaptation
-*        under Climate Stress."
+*       Orsich, M., Steimanis, I., Burger, M. N., & Vollan, B. (2026).
+*       "Structured rules, not broad autonomy, support adaptive
+*        governance under climate stress."
 *       Marburg University, School of Business and Economics.
 *
 *   Deposited de-identified data live in /data/clean and /processed; the raw

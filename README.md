@@ -1,7 +1,8 @@
 # Replication Package
 
-**Paper:** *Policy Blueprints, Local Autonomy, and Institutional Adaptation under Climate Stress*
-**Authors:** Maryia Orsich, Maximilian Nicolaus Burger, Ivo Steimanis, Björn Vollan
+**Paper:** *Structured rules, not broad autonomy, support adaptive governance under climate stress*
+**Authors:** Maryia Orsich†, Ivo Steimanis†, Maximilian Nicolaus Burger, Björn Vollan  
+† Maryia Orsich and Ivo Steimanis contributed equally.
 **Affiliation:** Marburg University, School of Business and Economics
 **Corresponding author:** Björn Vollan, [bjoern.vollan@wiwi.uni-marburg.de](mailto:bjoern.vollan@wiwi.uni-marburg.de)
 **Replication-package contact:** Ivo Steimanis, [i.steimanis@gmail.com](mailto:i.steimanis@gmail.com)
@@ -259,7 +260,7 @@ The vendored third-party Stata packages in `code/libraries/stata/` are distribut
 
 If you use this package in your own research, please cite the paper:
 
-> Orsich, M., Burger, M. N., Steimanis, I., & Vollan, B. (2026). *Policy Blueprints, Local Autonomy, and Institutional Adaptation under Climate Stress.* Proceedings of the National Academy of Sciences. [DOI to be inserted at acceptance].
+> Orsich, M., Steimanis, I., Burger, M. N., & Vollan, B. (2026). *Structured rules, not broad autonomy, support adaptive governance under climate stress.* Working paper. [DOI to be inserted upon archiving].
 
 ---
 
