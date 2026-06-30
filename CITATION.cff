@@ -1,0 +1,22 @@
+cff-version: 1.2.0
+message: "If you use this replication package, please cite the associated paper."
+title: "Structured rules, not broad autonomy, support adaptive governance under climate stress"
+abstract: "Replication package (de-identified data, Stata/R/Python code, codebooks, and regenerated outputs) for a framed field experiment with small-scale fishers and a three-wave marine protected area panel, testing how the scope of local institutional autonomy shapes adaptive governance of common-pool resources under climate stress. Maryia Orsich and Ivo Steimanis contributed equally."
+type: software
+authors:
+  - family-names: Orsich
+    given-names: Maryia
+  - family-names: Steimanis
+    given-names: Ivo
+  - family-names: Burger
+    given-names: Maximilian Nicolaus
+  - family-names: Vollan
+    given-names: Björn
+license: CC-BY-4.0
+repository-code: "https://github.com/IvoSteimanis/mpa-adaptation"
+keywords:
+  - commons governance
+  - climate adaptation
+  - marine protected areas
+  - framed field experiment
+  - institutional autonomy
