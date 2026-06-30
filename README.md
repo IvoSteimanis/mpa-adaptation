@@ -1,5 +1,7 @@
 # Replication Package
 
+[![DOI](https://zenodo.org/badge/1284087332.svg)](https://zenodo.org/badge/latestdoi/1284087332)
+
 **Paper:** *Structured rules, not broad autonomy, support adaptive governance under climate stress*
 **Authors:** Maryia Orsich†, Ivo Steimanis†, Maximilian Nicolaus Burger, Björn Vollan  
 † Maryia Orsich and Ivo Steimanis contributed equally.
@@ -236,7 +238,7 @@ The de-identified individual-, group-, and village-level data needed to reproduc
 
 **What is restricted (not deposited).** The raw survey workbooks (consent form, post-experiment survey, household survey) and the photographs of Open-Design (T4) rule sheets contain direct identifiers or handwriting that could identify participants; these are held by the authors and are available on reasonable request under the IRB protocol. The survey-cleaning code that consumes the raw workbooks is included for transparency but is not required to reproduce the published results, which run from the deposited de-identified data.
 
-The replication package source is hosted at https://github.com/IvoSteimanis/mpa-adaptation and will be archived on Zenodo with a citable DOI at acceptance.
+The replication package source is hosted at https://github.com/IvoSteimanis/mpa-adaptation and archived on Zenodo (concept DOI https://doi.org/10.5281/zenodo.21065050, which always resolves to the latest version).
 
 ---
 
@@ -260,7 +262,7 @@ The vendored third-party Stata packages in `code/libraries/stata/` are distribut
 
 If you use this package in your own research, please cite the paper:
 
-> Orsich, M., Steimanis, I., Burger, M. N., & Vollan, B. (2026). *Structured rules, not broad autonomy, support adaptive governance under climate stress.* Working paper. [DOI to be inserted upon archiving].
+> Orsich, M., Steimanis, I., Burger, M. N., & Vollan, B. (2026). *Structured rules, not broad autonomy, support adaptive governance under climate stress.* Working paper. https://doi.org/10.5281/zenodo.21065050
 
 ---
 
